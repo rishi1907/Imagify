@@ -28,7 +28,7 @@ export const generateImage = async (req, res) => {
               responseType: 'arraybuffer'
         })
 
-        const base64Image = Buffer.form(data, 'binary').toString('base64')
+        const base64Image = Buffer.from(data, 'binary').toString('base64')
 
         const resultImage = `data:image/png;base64,${base64Image}`
 
