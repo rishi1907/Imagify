@@ -18,6 +18,8 @@ import cross_icon from './cross_icon.svg'
 import star_group from './star_group.png'
 import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
+import razorpay_logo from './razorpay_logo.png'
+import stripe_logo from './stripe_logo.png'
 
 export const assets = {
     logo,
@@ -34,7 +36,9 @@ export const assets = {
     cross_icon,
     star_group,
     credit_star,
-    profile_icon
+    profile_icon,
+    razorpay_logo,
+    stripe_logo
 }
 
 export const stepsData = [
@@ -82,14 +86,14 @@ export const testimonialsData = [
 export const plans = [
     {
       id: 'Basic',
-      price: 10,
+      price: 50,
       credits: 100,
       desc: 'Best for personal use.'
     },
     {
       id: 'Advanced',
-      price: 50,
-      credits: 500,
+      price: 60,
+      credits: 200,
       desc: 'Best for business use.'
     },
     {
